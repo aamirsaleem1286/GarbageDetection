@@ -185,7 +185,7 @@ const Page = () => {
                             </form>
                         </div>
                         <div style={{marginTop: "20px",backgroundColor:" #0F1C3A",color: "white",width: "220px",height: "40px",marginLeft: "80px",display: "flex",alignItems: "center",justifyContent: "center",borderRadius: "20px"}}>
-                            <button onClick={logout} className="flex gap-2 items-center bg-[#0F1C3A] text-red-600">
+                            <button onClick={logout} className="flex gap-2 items-center bg-[#0F1C3A] text-white">
                                 <LogOut size={20} />
                                 Logout
                             </button>
