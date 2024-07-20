@@ -111,7 +111,7 @@ const Page = () => {
             ) : (
                 <div>
                     <Image src="/signupbg.jpeg" alt="" width={300} height={300} style={{ width: "100%", marginTop: "-20px" }} />
-                    <div className="flex flex-col min-h-[90vh] mt[-620px]" style={{ marginTop: "-620px" }}>
+                    <div className="flex flex-col min-h-[130vh] mt[-620px]" style={{ marginTop: "-620px" }}>
                         <div className="rounded-3xl w-full h-48 mt-3">
                             <div className="flex relative flex-col text-white justify-center items-center h-full">
                                 <div className="flex flex-col gap-2 relative">
@@ -178,14 +178,14 @@ const Page = () => {
                                     <input type="text" style={{ borderRadius: "25px" }} id="state" name="state" value={editFormData.state} onChange={handleInputChange} className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#0F1C3A] focus:border-[#0F1C3A] sm:text-sm" />
                                 </div>
                                 <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                    <button type="submit" className="bg-[#0F1C3A] text-white px-4 py-2 rounded-md">
+                                    <button type="submit" className="bg-[#0F1C3A] w-[130px] text-white px-4 py-2 rounded-md">
                                         Save
                                     </button>
                                 </div>
                             </form>
                         </div>
-                        <div style={{ marginTop: "20px" }}>
-                            <button onClick={logout} className="flex gap-2 items-center text-red-600">
+                        <div style={{marginTop: "20px",backgroundColor:" #0F1C3A",color: "white",width: "220px",height: "40px",marginLeft: "80px",display: "flex",alignItems: "center",justifyContent: "center",borderRadius: "20px"}}>
+                            <button onClick={logout} className="flex gap-2 items-center bg-[#0F1C3A] text-red-600">
                                 <LogOut size={20} />
                                 Logout
                             </button>
