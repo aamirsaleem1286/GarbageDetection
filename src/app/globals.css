@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Add other global styles here */
+}
+
+/* Additional styling can be added for specific components */
+
+/* pages/styles.module.css */
+
+.container {
+    text-align: center;
+}
+
+.chartContainer {
+    width: 600px;
+    margin: auto;
+}
+
+/* 
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.sliding-text {
+    animation: slideIn 2s ease-in-out;
+    /* Reduced the duration to 2 seconds */
+/* }
+
+@keyframes slideInImage {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.sliding-image {
+    animation: slideInImage 2s ease-in-out;
+    /* Reduced the duration to 2 seconds */
+    /* animation-fill-mode: forwards; */ 
+    /* This ensures the image stays at the final position */
+/* }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+} */ */
+
+
+
+
+
+
+
+.heading {
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
