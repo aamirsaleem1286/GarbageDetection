@@ -191,14 +191,6 @@ const Page = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="mt-20 text-white">label</div>
-                    <div className="text-white">label</div>
-                    <div className="mt-20 text-white">label</div>
-                    <div className="text-white">label</div>
-                    <div className="mt-20 text-white">label</div>
-                    <div className="text-white">label</div>
-                    <div className="mt-20 text-white">label</div>
-                    <div className="text-white">label</div>
                 </div>
             )}
         </>
