@@ -42,7 +42,7 @@ const Contact = () => {
     return (
         <>
             <Image src="/signupbg.jpeg" alt="Background" width={300} height={300} style={{ width: "100%", marginTop: "-20px" }} />
-            <form autoComplete="off" ref={form} onSubmit={sendEmail} className="flex flex-col gap-3 mb-44 m-4 p-4">
+            <form autoComplete="off" ref={form} onSubmit={sendEmail} className="min-h-[58vh] flex flex-col gap-3 mb-44 m-4 p-4">
                 <div className="flex flex-col mt-[-691px]">
                     <h1 className="mt-12 text-center font-bold opacity-90 text-black text-2xl tracking-wide" style={{ fontSize: "24px", whiteSpace: "nowrap" }}>
                         Report New Garbage

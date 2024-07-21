@@ -87,7 +87,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
                     <label htmlFor="Email" className="font-semibold ml-[35px] mt-[-2px]">
                         Email
                     </label>
-                    <div className="flex items-center border-2 rounded-lg p-2 w-[270px] ml-[18px] mt-[-8px] focus:outline-[#0F1C3A] focus:border-[#0F1C3A]" style={{ borderRadius: "25px" }}>
+                    <div className="flex items-center border-2 rounded-lg p-2 w-[290px] ml-[18px] mt-[-8px] focus:outline-[#0F1C3A] focus:border-[#0F1C3A]" style={{ borderRadius: "25px" }}>
                         <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} className="bg-transparent border-none flex-grow text-black p-2 w-0 focus:outline-none" autoComplete="off" />
                         <FaEnvelope size={20} className="text-black ml-2" />
                     </div>
