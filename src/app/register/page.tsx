@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import { ClockLoader } from "react-spinners";
 import axios from "axios";
@@ -86,12 +85,14 @@ const Page = () => {
                     <h1 className="font-extrabold text-2xl text-center mb-5" style={{ fontFamily: " initial", fontSize: "xx-large" }}>
                         Create New <br /> Account
                     </h1>
-                    <span className="text-center  text-[#0F1C3A] text-medium font-bold" style={{ marginLeft: "50px", color: "lightslategray", whiteSpace: "nowrap" }}>
-                        Already have an account?
-                        <Link href={"/login"} className="text-medium font-bold" style={{ color: "lightslategray" }}>
-                            Login
-                        </Link>
-                    </span>
+                    <Link href={"/login"}>
+                        <span className="text-center  text-[#0F1C3A] text-medium font-bold" style={{ marginLeft: "50px", color: "lightslategray", whiteSpace: "nowrap" }}>
+                            Already have an account?
+                            <Link href={"/login"} className="text-medium font-bold" style={{ color: "lightslategray" }}>
+                                Login
+                            </Link>
+                        </span>
+                    </Link>
                     <form autoComplete="false" className="flex flex-col gap-2" onSubmit={handleRegister} style={{ width: "225px", marginLeft: "44px" }}>
                         <label style={{ marginTop: "10px" }} htmlFor="text" className="text-lg text-semibold font-semibold">
                             Username
