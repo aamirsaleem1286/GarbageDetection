@@ -193,18 +193,18 @@ const Page: React.FC = () => {
                     <h1 className="text-2xl font-bold mt-6 ml-4 text-black">Monthly Garbage Collection Trends (Bar Chart)</h1>
                     <canvas id="barChart" className="chart w-full" height="300"></canvas>
                 </div>
-                <div className="relative bg-slate-100" style={{ width: "340px", marginLeft: "7px" }}>
+                <div className="relative bg-slate-100" style={{ width: "340px", marginLeft: "7px", minHeight: "480px" }}>
                     <h1 className="text-2xl font-bold mt-6 ml-4 text-black">Weekly Garbage Collection Trends (Line Chart)</h1>
                     <canvas id="lineChart" className="chart w-full" height="300"></canvas>
                 </div>
             </div>
-            <div className="bg-slate-100" style={{ width: "340px", marginLeft: "7px" }}>
+            {/* <div className="bg-slate-100" style={{ width: "340px", marginLeft: "7px", minHeight: "480px" }}>
                 <h1 className="text-2xl font-bold mt-6 ml-4 text-black">Yearly Garbage Collection Trends (Donut Chart) </h1>
                 <DoughnutChart />
             </div>
             <label htmlFor="message" className="text-white mt-5 text-lg text-semibold font-semibold">
                 Your Message
-            </label>
+            </label> */}
         </div>
     );
 };
