@@ -53,7 +53,7 @@ const Page: React.FC = () => {
                     labels: weeklySalesData.map((data) => data.day),
                     datasets: [
                         {
-                            label: "Weekly Sales",
+                            label: "Weekly Report",
                             data: weeklySalesData.map((data) => data.sales),
                             fill: false,
                             borderColor: "#FB5299",
@@ -75,7 +75,7 @@ const Page: React.FC = () => {
                         y: {
                             title: {
                                 display: true,
-                                text: "Sales",
+                                text: "Report",
                             },
                             ticks: {
                                 color: "black",
@@ -98,7 +98,7 @@ const Page: React.FC = () => {
                     labels: salesData.map((data) => data.month),
                     datasets: [
                         {
-                            label: "Monthly Sales",
+                            label: "Monthly Report",
                             data: salesData.map((data) => data.sales),
                             backgroundColor: salesData.map(() => "#" + (Math.random().toString(16) + "000000").substring(2, 8)),
                         },
@@ -118,7 +118,7 @@ const Page: React.FC = () => {
                         y: {
                             title: {
                                 display: true,
-                                text: "Sales",
+                                text: "Report",
                             },
                             ticks: {
                                 color: "black",
