@@ -79,7 +79,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="mt-[275px] w-full max-w-md mx-[10px] p-4 my-8">
+            <div className="mt-[235px] w-full max-w-md mx-[10px] p-4 my-8">
                 <h1 className="font-semibold text-2xl text-[#0F1C3A] text-center ml-3 mb-5" style={{ fontFamily: "initial", fontSize: "35px" }}>
                     Login Here
                 </h1>
