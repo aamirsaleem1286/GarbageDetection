@@ -77,12 +77,13 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
                 backgroundImage: `url('/loginimg.png')`,
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
+                 height:"0px"   
             }}
         >
-            <div className="mt-[285px] w-full max-w-md mx-[10px] p-4 my-8">
-                <h1 className="font-semibold text-2xl text-[#0F1C3A] text-center ml-3 mb-5" style={{ fontFamily: "initial", fontSize: "35px" }}>
+            <div className="mt-[336px] w-full max-w-md mx-[10px] p-4 my-8">
+                <h1 className="font-semibold text-2xl text-[#0F1C3A] text-center  mb-5" style={{ fontFamily: "initial", fontSize: "35px" }}>
                     Login Here
-                </h1>
+                </h1> 
                 <form autoComplete="false" className="flex flex-col gap-4" onSubmit={handleLogin}>
                     <label htmlFor="Email" className="font-semibold ml-[35px] mt-[-2px]">
                         Email
@@ -94,7 +95,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
                     <label htmlFor="Password" className="font-semibold ml-[35px]">
                         Password
                     </label>
-                    <div className="flex items-center border-2 rounded-lg p-2 w-[270px] ml-[18px] mt-[-8px]" style={{ borderRadius: "25px" }}>
+                    <div className="flex items-center border-2 rounded-lg p-2 w-[290px] ml-[18px] mt-[-8px]" style={{ borderRadius: "25px" }}>
                         <input type={showPassword ? "text" : "password"} placeholder="Password" className="bg-transparent border-none flex-grow text-black p-2 w-0 focus:outline-none" onChange={(e) => setPassword(e.target.value)} />
                         {showPassword ? <EyeOff size={20} onClick={() => setShowPassword(!showPassword)} className="cursor-pointer ml-2" /> : <Eye size={20} onClick={() => setShowPassword(!showPassword)} className="cursor-pointer ml-2" />}
                     </div>
